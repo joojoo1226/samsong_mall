@@ -1,0 +1,347 @@
+.product_etc{
+	padding: 50px 0px;
+}
+
+.product_etc h1{
+	height: 31px;
+    line-height: 31px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.product_etc h2{
+	height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6699cc;
+}
+
+.product_etc em{
+	height: 21px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #666;
+}
+
+.product_etc table{
+	border-collapse: collapse !important;
+	table-layout: fixed;
+    border-top: solid 1px #d8d8d8;
+    border-bottom: solid 1px #d8d8d8;
+}
+
+.product_etc table th{
+	width: 170px;
+	background-color: #f8f8f8;
+	font-size: 13px;
+    border-top: solid 1px #d8d8d8;
+    border-bottom: solid 1px #d8d8d8;
+    border-right: solid 1px #d8d8d8;
+}
+
+.product_etc table td{
+	width: 540px;
+	padding: 30px 0px;
+	padding-left: 20px;
+	border-collapse: collapse !important;
+	table-layout: fixed;
+	font-size: 12px;
+    border-top: solid 1px #d8d8d8;
+    border-bottom: solid 1px #d8d8d8;
+}
+.productContentDetail{
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.productDetail{
+	width: 900px;
+/* 	background-color: orange; */
+	margin: 0px auto;
+}
+.productImg{
+	width: 400px;
+	float: left;
+}
+
+.productImg img{
+	width: 400px;
+	float: left;
+}
+
+.productInfo{
+	margin-left: 50px;
+	width: 450px;
+	float: left;
+}
+.productInfo .productTitle{
+	height: 60px;
+
+	font-size: 14px;
+	color: #aeaeae;
+}
+.productInfo .productTitle h1{
+
+	margin-bottom: 16px;
+	color: #3e3e3e;
+    width: 450px;
+    min-height: 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.productInfo .productName{
+	height: 60px;
+
+	font-size: 14px;
+	color: #aeaeae;
+}
+
+.productInfo .productName em{
+	margin-bottom: 16px;
+	color: #3e3e3e;
+    width: 450px;
+    min-height: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    overflow: hidden;
+    font-style: normal;
+    display: block;
+}
+
+.productInfo .productType{
+	height: 60px;
+
+	font-size: 14px;
+	color: #aeaeae;
+}
+
+.productInfo .productType em{
+	margin-bottom: 16px;
+	color: #3e3e3e;
+    width: 450px;
+    min-height: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    overflow: hidden;
+    font-style: normal;
+    display: block;
+}
+
+.productInfo .productContent{
+	height: 90px;
+
+	font-size: 14px;
+	color: #aeaeae;
+}
+
+.productInfo .productContent em{
+	margin-bottom: 16px;
+	color: #3e3e3e;
+    height: 210px;
+    min-height: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    overflow: hidden;
+    font-style: normal;
+    display: block;
+}
+
+.productInfo .productPrice{
+	height: 60px;
+
+	font-size: 14px;
+	color: #aeaeae;
+}
+
+.productInfo .productPrice em{
+	margin-bottom: 16px;
+	color: #3e3e3e;
+    width: 450px;
+    min-height: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    overflow: hidden;
+    font-style: normal;
+    display: block;
+}
+
+.productQuan{
+	display: block;
+	height: 135px;
+	margin-bottom: 16px;
+
+	color: green;
+}
+
+.productQuan .productQuanButton{
+	margin-top: 10px;
+	display: block;
+	height: 30px;
+}
+
+.productQuan .productQuanButton .quanInput{
+    float: left;
+
+    width: 61px;
+    height: 22px;
+
+    line-height: 20px;
+    overflow: hidden;
+
+    border: solid 1px #ebebeb;
+    border-top-color: #d8d8d8;
+    border-left: none;
+    border-right: none;
+
+    font-size: 12px;
+    text-align: center !important;
+    color: #333;
+    border-radius: 0;
+    outline-style: none;
+    background-color: transparent;
+}
+
+.productQuan .productQuanButton .quanText{
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+
+    position:relative;
+    top: 4px;
+    left: 5px;
+}
+
+.productQuan .productQuanButton .quanButton{
+	float: left;
+
+    width: 24px;
+    height: 24px;
+    border: solid 1px #ebebeb;
+    border-right-color: #d8d8d8;
+    border-bottom-color: #d8d8d8;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+
+
+.productButton{
+	display: block;
+	overflow:visible;
+}
+
+.productButton input[type=button]{
+	width: 110px;
+	height: 30px;
+	border-color: #199db3;
+    border-bottom-color: #168da1;
+    border-right-color: #168da1;
+    background-color: #199db3;
+
+    position: relative;
+    padding: 0 7px;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    cursor: pointer;
+
+    /* 폰트 */
+    color: white;
+    font-weight: bold;
+}
+.productButton input[type=button]{
+	width: 110px;
+	height: 30px;
+	border-color: #199db3;
+    border-bottom-color: #168da1;
+    border-right-color: #168da1;
+    background-color: #199db3;
+
+    position: relative;
+    padding: 0 7px;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    cursor: pointer;
+
+    /* 폰트 */
+    color: white;
+    font-weight: bold;
+}
+.productButton input[type=submit].nologin{
+	width: 150px;
+}
+
+.productContentImg img{
+	margin: 40px 0px;
+	width:900px;
+}
+
+.reviewSection{
+	width: 900px;
+	margin-bottom: 50px;
+
+}
+.reviewListSection{
+	border-top: 1px solid #c3c3c3;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.reviewSection table{
+	width: 900px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	border-top: 1px solid #c3c3c3;
+}
+
+.reviewSection table:first-of-type{
+	border-top: none;
+}
+.reviewSection table td{
+	padding: 5px 20px;
+}
+
+.reviewSection table .title{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+
+.star-rating_review {width:100px; }
+.star-rating_review,.star-rating_review span {display:inline-block; height:18px; overflow:hidden; background:url(../images/star_sp.png)no-repeat; }
+.star-rating_review span{background-position:left bottom; line-height:0; vertical-align:top; }
+
+.wrap-star_review{
+	display: inline;
+
+}
+.reviewSection table td em{
+	font-size: 8px;
+	color: #c3c3c3;
+}
+
+.reviewSection h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px 0px;
+}
